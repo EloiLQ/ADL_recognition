@@ -4,7 +4,7 @@ Le suivi des activités quotidiennes d'un individu est rendu possible grâce aux
 Les données d'accélérométrie sont mesurées avec un bracelet électronique porté par plusieurs individus effectuant un total de 14 ADL. Le bracelet mesure l'accélération au niveau du poignet selon les trois axes spatiaux x, y et z avec une fréquence de 25 Hz.
 
 L'analyse est composée de deux parties : 
-- une analyse exploratoire (Clustering_HDBSCAN.ipynb)
+- une analyse exploratoire ([Clustering_HDBSCAN.ipynb](https://nbviewer.org/github/EloiLQ/ADL_recognition/blob/main/Clustering_HDBSCAN.ipynb))
 - une modélisation statistique des ADL (Identification.ipynb)
 
 L'analyse exploratoire permet de dégager des patterns au sein des signaux d'accélérométrie, tandis que la modélisation statistique permet de prédire les ADL en fonction des signaux d'accélérométrie.
